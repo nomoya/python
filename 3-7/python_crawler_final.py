@@ -10,7 +10,7 @@ def main():
     """
     クローラーのメインの処理。
     """
-
+    #test
     client = MongoClient('localhost', 27017)  # ローカルホストのMongoDBに接続する。
     collection = client.scraping.ebooks  # scrapingデータベースのebooksコレクションを得る。
     # データを一意に識別するキーを格納するkeyフィールドにユニークなインデックスを作成する。
